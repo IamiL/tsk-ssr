@@ -1,0 +1,74 @@
+#contactsp-sec1 {
+    width: var(--100w);
+}
+
+#contactsp-sec1-container {
+    margin-top: calc(var(--1w) * 0.36);
+    border-top: 1px solid rgba(247, 247, 247, 0.75);
+    border-bottom: 1px solid rgba(247, 247, 247, 0.75);
+    padding-top: calc(var(--1w) * 0.16);
+    height: calc(var(--1w) * 4.4);
+}
+
+#contactsp-sec1-container-heading {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+#contactsp-map {
+    grid-column-start: 5;
+    grid-column-end: 13;
+    padding-left: calc(var(--1w) * 0.16);
+    padding-right: calc(var(--1w) * 0.16);
+    padding-top: calc(var(--1w) * 0.16);
+    padding-bottom: calc(var(--1w) * 0.16);
+    height: calc(var(--1w) * 4.23);
+}
+
+#contactsp-map-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.organization-map-heading {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+
+.contactsp-specs {
+    grid-column-start: 5;
+    grid-column-end: 13;
+}
+
+.contactsp-spec {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: calc(var(--1w) * 0.09);
+    padding-bottom: calc(var(--1w) * 0.09);
+}
+
+.contactsp-spec > p {
+    padding-left: calc(var(--1w) * 0.15);
+}
+
+#contactsp-sec2 {
+    /*border-top: 1px solid rgba(247, 247, 247, 0.75);*/
+    margin-top: calc(var(--1w) * 0.2);
+}
+
+#contactsp-sec3 {
+    border-top: 1px solid rgba(247, 247, 247, 0.75);
+    padding-top: calc(var(--1w) * 0.09);
+}
+
+
+@media only screen and (max-width: 767px) {
+    #contactsp-sec1-container {
+        height: unset;
+    }
+
+    #contactsp-map {
+        height: 64.319239svh;
+    }
+}

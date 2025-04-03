@@ -1,0 +1,32 @@
+#mainp-sec5-licenses-mobile {
+    margin-top: 8.333332svh;
+}
+
+#mainp-sec5-licenses-mobile .slick-dots {
+    font-size: 20px;
+    bottom: 10px;
+    color: white;
+    position: unset;
+    height: var(--1h);
+    margin-top: var(--1g);
+}
+
+#mainp-sec5-licenses-mobile .slick-list {
+    height: 55.985907svh;
+}
+
+#mainp-sec5-licenses-mobile .slick-slide {
+    height: 55.985907svh;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#mainp-sec5-licenses-mobile {
+    margin-top: 9.5070405svh;
+}
+
+#mainp-sec5-licenses-mobile .slick-dots {
+    display: flex !important;
+    justify-content: center;
+    align-items: start;
+}

@@ -1,0 +1,9 @@
+.cart5-link {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .cart5-link {
+        display: unset;
+    }
+}

@@ -1,0 +1,56 @@
+.point {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: calc(var(--1w) * 4);
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+    height: calc(var(--1w) * 0.929104);
+}
+
+.point-icon {
+    cursor: pointer;
+    height: calc(var(--1w) * 0.929104);
+    transition: transform 0.2s;
+    transform: scale(1) translateY(0);
+}
+
+
+.point-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: calc(var(--1w) * 0.15);
+    border: 1px solid rgba(247, 247, 247, 0.75);
+    background: #191919;
+    width: calc(var(--1w) * 3);
+    z-index: 1;
+}
+
+.point-info-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.point-info-img-container {
+    width: 100%;
+}
+
+.point-info-img {
+    width: 100%;
+    object-fit: contain;
+}
+
+
+@media only screen and (max-width: 767px) {
+    .point-icon {
+        cursor: unset;
+        height: 3.87323943662svh;
+        width: 2.34741784038svh;
+    }
+}
