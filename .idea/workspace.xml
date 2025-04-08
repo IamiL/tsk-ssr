@@ -61,7 +61,7 @@
     "prettierjs.PrettierConfiguration.Package": "C:\\Users\\ivana\\go\\src\\tsk-ssr\\node_modules\\prettier",
     "rearrange.code.on.save": "true",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
-    "ts.external.directory.path": "C:\\Users\\ivana\\go\\src\\tsk-ssr\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.3.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -100,7 +100,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743600691880</updated>
       <workItem from="1743600693184" duration="23328000" />
-      <workItem from="1744044242530" duration="53532000" />
+      <workItem from="1744044242530" duration="53598000" />
     </task>
     <servers />
   </component>
