@@ -1,5 +1,3 @@
-"use client";
-
 import "./map.css"
 import MobileMap from "./../mobileMap/mobileMap";
 import {useEffect, useState} from "react";

@@ -21,10 +21,13 @@
         grid-template-rows: 14.319247svh 41.66666svh;
         row-gap: unset;
         padding: unset;
+        padding-top: 2%;
+        padding-left: 2%;
     }
 
     .cart2-children {
-        padding-bottom: 1.8779342723svh;
+        /*padding-bottom: 1.8779342723svh;*/
+        padding-bottom: 3svh;
         display: flex;
         justify-content: center;
     }

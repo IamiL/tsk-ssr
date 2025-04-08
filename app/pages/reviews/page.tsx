@@ -6,10 +6,10 @@ import React from "react";
 export default function ReviewsPage() {
     return (
         <section id='reviewsp-sec'>
-            <h1 className='fs3 m-b'>Отзывы</h1>
+            <h1 className='fs3 mfs3 m-b' id='reviewsp-sec-heading'>Отзывы</h1>
             <div id='reviewsp-sec-container'>
                 <div className='divid' id='divid6'/>
-                <p className='fs5 i-m' id='reviewsp-sec-container-text'>
+                <p className='fs5 mfs6 i-m' id='reviewsp-sec-container-text'>
                     Доверие клиентов — лучшая оценка нашей работы. Узнайте, как наши комплексные
                     решения
                     помогли обеспечить

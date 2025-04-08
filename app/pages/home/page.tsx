@@ -7,15 +7,19 @@ import Cart3 from "./../../components/cart/3/cart3";
 import Cart5 from "./../../components/cart/5/cart5";
 import Carousel from "./../../components/carousel/carousel";
 import LicensesSlider from "./../../components/licensesSlider/licensesSlider";
+import {useAppContext} from "~/context/context";
 
 export default function HomePage() {
+    const {isOpen} = useAppContext();
     return (
         <>
             <section className="main-grid" id="mainp-sec1">
                 <div id='mainp-sec1-btn-container'>
-                    <button className='mfs5 i-m' id='mainp-sec1-btn'>связаться</button>
+                    <button className='mfs5 i-m' id='mainp-sec1-btn' style={isOpen ? {opacity: 0} : {}}>связаться
+                    </button>
                 </div>
-                <h1 className="fs1 mfs1 m-b up" id="mainp-sec1-h">системный<br className='br1'/>
+                <h1 className={`fs1 mfs1 m-b up ${isOpen ? 'move-down' : ''}`} id="mainp-sec1-h">системный<br
+                    className='br1'/>
                     <span id="h1-2padding">интегратор</span><br className='br1'/><span
                         id="h1-3padding">крутойойо</span></h1>
                 <Logo1 id={"mainp-sec1-img"}/>
@@ -40,11 +44,15 @@ export default function HomePage() {
             <section id='mainp-sec3'>
                 <h2 className="fs3 mfs3 m-b up" id='mainp-sec3-heading'>услуги</h2>
                 <div className='main-grid' id='mainp-sec3-services'>
-                    <p id='mainp-sec3-block1' className='fs7 mfs6 i-m'>Мы предлагаем комплексные решения для охраны
-                        объектов и контроля
-                        доступа. Проектируем,
-                        устанавливаем и обслуживаем системы безопасности для вашего бизнеса. Вы получите надежную
-                        защиту, которая обеспечит сохранность имущества и жизни людей.</p>
+                    <div id='mainp-sec3-text-container'>
+                        <div className='divid' id='divid7'/>
+                        <p id='mainp-sec3-block1' className='fs7 mfs6 i-m'>Мы предлагаем комплексные решения для охраны
+                            объектов и контроля
+                            доступа. Проектируем,
+                            устанавливаем и обслуживаем системы безопасности для вашего бизнеса. Вы получите надежную
+                            защиту, которая обеспечит сохранность имущества и жизни людей.</p>
+                    </div>
+
                     <Cart5 id={'mainp-sec3-block2'}
                            heading={'КИТСОЗ'}
                            value={'Проектируем и внедряем комплекс инженерно-технических средств охраны для обеспечения безопасности объектов и персонала.'}

@@ -1,9 +1,35 @@
+.cart5 {
+    cursor: pointer;
+    border-bottom-width: 0;
+}
+
+.cart5 > div > .cart5-heading {
+    border-bottom: 1px solid #FFFFFF;
+    border-bottom-width: 0;
+}
+
+.cart5:hover > div > .cart5-heading {
+    border-bottom-width: 1px;
+}
+
 .cart5-link {
     display: none;
 }
 
 @media only screen and (max-width: 767px) {
-    .cart5-link {
-        display: unset;
+    .cart5-heading {
+        padding-top: 2%;
+        padding-left: 2%;
     }
+
+    .cart5 > p {
+        padding-left: 2%;
+    }
+
+    .cart5-link {
+        display: flex;
+        justify-content: end;
+    }
+
+
 }

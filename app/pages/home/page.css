@@ -1,6 +1,7 @@
 #mainp-sec1 {
     margin-top: calc(var(--1w) * 0.35);
     height: calc(var(--1w) * 4.792);
+    overflow: hidden;
 }
 
 #mainp-sec1-btn-container {
@@ -12,6 +13,8 @@
 
 #mainp-sec1-btn {
     border: 1px solid rgba(247, 247, 247, 0.75);
+    padding: 0.2svh 1.2svh;
+    height: 3.6svh;
 }
 
 #mainp-sec1-h {
@@ -19,6 +22,11 @@
     grid-column-end: -4;
     margin-top: calc(var(--1w) * 1.07);
     font-style: italic;
+    transition: transform 0.2s;
+}
+
+.move-down {
+    transform: translateY(calc(var(--1h) * 2));
 }
 
 #h1-2padding {
@@ -29,12 +37,14 @@
     padding-left: 3em;
 }
 
+
 #mainp-sec1-img {
     grid-column-start: -4;
     grid-column-end: -1;
     object-fit: contain;
     height: calc(var(--1w) * 3.1);
     width: 100%;
+    transform: scale(2);
 }
 
 #mainp-sec2 {
@@ -74,6 +84,14 @@
 #mainp-sec3 {
     width: var(--100w);
     margin-top: calc(var(--1w) * 0.88);
+}
+
+#mainp-sec3-text-container {
+    position: relative;
+}
+
+#divid7 {
+    display: none;
 }
 
 #mainp-sec3-services {
@@ -194,6 +212,14 @@
     position: relative;
 }
 
+/*#mainp-sec6-reviews .slick-slider {*/
+/*    !*transform: translatex(calc(var(--1w) * -0.1));*!*/
+/*}*/
+
+/*#mainp-sec6-reviews .slick-list {*/
+/*    width: 110%;*/
+/*}*/
+
 .mainp-sec6-reviews-img {
     height: 100%;
     width: 100%;
@@ -229,6 +255,7 @@
 
     #mainp-sec1-img {
         height: 33.333328svh;
+        transform: scale(1);
     }
 
     #mainp-sec1-h {
@@ -288,9 +315,15 @@
         align-items: end;
     }
 
+    #divid7 {
+        display: block;
+        height: 2svh;
+    }
+
     #mainp-sec3-block1 {
         margin-top: var(--1g);
         height: 22.652579svh;
+        padding-top: 2svh;
     }
 
     #mainp-sec3-block2, #mainp-sec3-block3, #mainp-sec3-block4, #mainp-sec3-block5, #mainp-sec3-block6, #mainp-sec3-block7 {
@@ -327,6 +360,7 @@
 
     #mainp-sec5-heading {
         height: 9.5070405svh;
+        width: 50%;
     }
 
     #mainp-sec5-licenses {
@@ -359,6 +393,12 @@
 
     #mainp-sec6-reviews {
         margin-top: 10.680749svh;
+    }
+
+    #mainp-sec6-reviews .slick-slider {
+        display: flex;
+        flex-direction: column;
+        gap: var(--1g);
     }
 
     .mainp-sec6-reviews-img {

@@ -4,6 +4,7 @@ import type {Route} from "./+types/root";
 import "./app.css";
 import Header from "~/components/header/header";
 import Footer from "~/components/footer/footer";
+import {AppContextProvider} from "~/context/context";
 
 export const links: Route.LinksFunction = () => [
     {rel: "preconnect", href: "https://fonts.googleapis.com"},
@@ -39,11 +40,13 @@ export function Layout({children}: { children: React.ReactNode }) {
             <Links/>
         </head>
         <body>
-        <Header location={''}/>
-        <main>
-            {children}
-        </main>
-        <Footer/>
+        <AppContextProvider>
+            <Header location={''}/>
+            <main>
+                {children}
+            </main>
+            <Footer/>
+        </AppContextProvider>
         <ScrollRestoration/>
         <Scripts/>
         </body>

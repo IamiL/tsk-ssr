@@ -5,11 +5,11 @@ import ServicesSlider from "./../../components/servicesSlider/servicesSlider";
 export default function ServicesPage() {
     return (
         <section id='servicesp-sec'>
-            <h1 className='fs3 m-b'>Услуги</h1>
+            <h1 className='fs3 mfs3 m-b' id='servicesp-sec-heading'>Услуги</h1>
             <div id='servicesp-container1'>
                 <div className='divid' id='divid3'/>
                 <p id='servicesp-container1-text'
-                   className='fs5 i-m'>{`Комплексные решения в области безопасности: проектирование, установка и обслуживание систем охраны, видеонаблюдения, контроля доступа и пожарной безопасности для защиты ваших объектов и персонала.`}</p>
+                   className='fs5 mfs6 i-m'>{`Комплексные решения в области безопасности: проектирование, установка и обслуживание систем охраны, видеонаблюдения, контроля доступа и пожарной безопасности для защиты ваших объектов и персонала.`}</p>
             </div>
             <div className='main-grid' id='servicesp-services'>
                 <Cart4 heading={"КИТСОЗ"}

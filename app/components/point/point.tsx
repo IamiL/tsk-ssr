@@ -1,5 +1,3 @@
-'use client';
-
 export default function Point({className, onClick, id}: { className: string, onClick?: () => void, id?: string }) {
     return <svg className={className} onClick={onClick} id={id} width="75" height="125" viewBox="0 0 75 125" fill="none"
                 xmlns="http://www.w3.org/2000/svg">

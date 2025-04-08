@@ -1,5 +1,3 @@
-'use client';
-
 import React, {useEffect, useState} from "react";
 import Slider from "react-slick";
 import "./servicesSlider.css";

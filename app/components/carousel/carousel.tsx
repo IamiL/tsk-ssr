@@ -32,11 +32,11 @@ export default function Carousel({children}: { children: ReactNode }) {
     } : {
         dots: true, // Показывать точки навигации
         infinite: true, // Зациклить слайды
-        speed: 500, // Скорость анимации
-        slidesToShow: 4, // Количество показываемых элементов
+        speed: 300, // Скорость анимации
+        slidesToShow: 3.4, // Количество показываемых элементов
         slidesToScroll: 1, // Количество прокручиваемых элементов за раз
         autoplay: true, // Автоматическая прокрутка
-        autoplaySpeed: 2000, // Скорость автоматической прокрутки в миллисекундах
+        autoplaySpeed: 4000, // Скорость автоматической прокрутки в миллисекундах
         arrows: false,
         prevArrow: <></>,
         nextArrow: <></>

@@ -1,5 +1,3 @@
-"use client";
-
 import React, {useState} from 'react';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
@@ -13,7 +11,7 @@ export default function MobileMap() {
     const settings = {
         dots: true,
         infinite: true,
-        speed: 500,
+        speed: 100,
         slidesToShow: 1,
         slidesToScroll: 1,
         centerMode: true,

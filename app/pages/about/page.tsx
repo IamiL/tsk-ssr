@@ -5,17 +5,22 @@ import axis from "./axis.png"
 import "./page.css"
 
 export default function AboutPage() {
+    // const context = useAppContext();
+    // if (context !== null) {
+    //     context.isOpen && context.setIsOpen(false);
+    // }
     return (
         <>
             <section id="aboutp-sec1">
-                <h1 className='fs3 m-b'>О компании</h1>
+                <h1 className='fs3 mfs3 m-b' id='aboutp-sec1-heading'>О компании</h1>
                 <div id='aboutp-container1'>
                     <div className='divid' id='divid2'/>
-                    <p id='aboutp-container1-text' className='fs5 i-b'>Профессиональные решения для безопасности вашего
+                    <p id='aboutp-container1-text' className='fs5 mfs6 i-b'>Профессиональные решения для безопасности
+                        вашего
                         бизнеса</p>
                 </div>
                 <div id='aboutp-sec1-container1' className='main-grid'>
-                    <p className='fs5 i-m' id='aboutp-sec1-text'>
+                    <p className='fs5 mfs6 i-m' id='aboutp-sec1-text'>
                         {`"ТСК" — это команда профессионалов, работающая для создания безопасной среды в бизнесе и промышленности.
                 Мы предлагаем комплексные системы безопасности, ориентируясь на уникальные потребности каждого
                 клиента.`}
@@ -33,7 +38,7 @@ export default function AboutPage() {
                 </div>
             </section>
             <section id='aboutp-sec2'>
-                <p className='fs5 i-m'>
+                <p className='fs5 mfs6 i-m'>
                     Мы стремимся к качеству в каждой детали и на каждом этапе работы.<br/>Наша команда постоянно
                     совершенствует свои навыки и использует передовые технологии, чтобы обеспечить надежность и
                     долговечность решений для безопасности.

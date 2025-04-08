@@ -17,8 +17,8 @@
 
 #mainp-sec5-licenses-mobile .slick-slide {
     height: 55.985907svh;
-    padding-left: 10px;
-    padding-right: 10px;
+    /*padding-left: 10px;*/
+    /*padding-right: 10px;*/
 }
 
 #mainp-sec5-licenses-mobile {
@@ -29,4 +29,9 @@
     display: flex !important;
     justify-content: center;
     align-items: start;
+}
+
+
+@media only screen and (max-width: 767px) {
+
 }

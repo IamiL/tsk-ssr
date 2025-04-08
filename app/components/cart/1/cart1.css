@@ -39,6 +39,8 @@
     .cart1t1-heading {
         width: 14rem;
         height: unset;
+        padding-left: 2%;
+        padding-bottom: 3%;
     }
 
     .cart1t1 {
@@ -47,5 +49,22 @@
 
     .cart1t1-value {
         border-bottom: 1px solid black;
+        padding-left: 2%;
+    }
+
+
+    .cart1t2 {
+        padding: unset;
+    }
+
+    .cart1t2-value {
+        border-bottom: 1px solid #FFFFFF;
+        padding-left: 2.57%;
+        height: 7.1596235svh;
+    }
+
+    .cart1t2-heading {
+        padding-left: 2.57%;
+        height: 7.1596235svh;
     }
 }

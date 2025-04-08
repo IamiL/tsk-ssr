@@ -148,6 +148,10 @@ main {
     font-size: 0.33333rem
 }
 
+.fs11 {
+    font-size: 0.87rem;
+}
+
 .i-m {
     font-family: "Inter";
     font-weight: 500
@@ -200,6 +204,9 @@ main {
         overflow-x: hidden;
     }
 
+    /*main {*/
+    /*    margin-top: var(--1h);*/
+    /*}*/
     .main-grid {
         display: unset;
         width: unset;

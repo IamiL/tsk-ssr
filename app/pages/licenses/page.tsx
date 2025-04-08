@@ -6,13 +6,14 @@ import lic31 from "./license3_1.png"
 import lic32 from "./license3_2.png"
 import "./page.css"
 import Cart7 from "./../../components/cart/7/cart7";
-import LicensesSlider from "./../../components/licensesSlider/licensesSlider";
+import LicensesSlider2 from "~/components/licensesSlider2/licensesSlider2";
 
 export default function LicensesPage() {
     return (
         <section id='licensesp-sec'>
-            <h1 className='fs3 m-b'>Лицензии и допуски</h1>
+            <h1 className='fs3 mfs3 m-b' id='licensesp-sec-heading'>Лицензии и допуски</h1>
             <div id='licensesp-container1' className='border-top'>
+                <div id='divid8'/>
                 <button className='btn fs5 i-m up' id='licensesp-btn'>скачать лицензии и допуски</button>
             </div>
             <div id='licensesp-container2'>
@@ -41,7 +42,7 @@ export default function LicensesPage() {
                     </div>
                 </Cart7>
             </div>
-            <LicensesSlider/>
+            <LicensesSlider2/>
         </section>
     );
 }

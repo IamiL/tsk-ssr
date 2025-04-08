@@ -1,4 +1,3 @@
-'use client'
 import "./page.css"
 import React from 'react'
 
@@ -68,23 +67,28 @@ export default function ContactusPage() {
     return (
         <>
             <section id='contactusp-sec1'>
-                <h1 className='fs3 m-b'>
+                <h1 className='fs3 mfs3 m-b' id='contactusp-sec1-heading'>
                     Обсудить проект
                 </h1>
                 <div id='contactusp-sec1-container'>
                     <div className='divid' id='divid5'/>
-                    <p className='fs5 i-m' id='contactusp-sec1-container-text'>
-                        {'Заполните ключевые данные по вашему проекту, чтобы мы могли подготовить индивидуальное предложение с учетом всех особенностей вашего объекта.'}
+                    <p className='fs11 mfs6 i-m' id='contactusp-sec1-container-text'>
+                        {'Заполните ключевые данные по вашему проекту, '}
+                        <br/>
+                        {'чтобы мы могли подготовить индивидуальное предложение '}
+                        <br/>
+                        {'с учетом всех особенностей вашего объекта.'}
                     </p>
                 </div>
             </section>
-            <form id='contactusp-sec2' className='fs5 i-m' onScroll={(event) => {
+            <form id='contactusp-sec2' className='fs11 mfs6 i-m' onScroll={(event) => {
                 event.preventDefault()
             }}>
                 <div className='border-top form-sec' id='form1'>
-                    <h2 className='fs4 i-m contactusp-header1'>Характеристика объекта</h2>
+                    <h2 className='fs4 mfs4 i-m contactusp-heading1 contactusp-heading-mobile'>Характеристика
+                        объекта</h2>
                     <div className='contactusp-block1'>
-                        <h3 className='fs5 i-m'>Функциональное назначение:</h3>
+                        <h3 className='fs11 i-m'>Функциональное назначение:</h3>
                         <ul className='main-grid cb-list i-r'>
                             <li className='input input-end1'>
                                 <input className='cb' id='1-1' type="checkbox" value="option1"
@@ -137,20 +141,20 @@ export default function ContactusPage() {
                                     прочее
                                 </label>
                             </li>
-
-                            {checkbox['1']['option4'] &&
-                                <input className='input input-end1 input-text fs5 i-r' type='text'
-                                       placeholder='введите ваш вариант'/>}
+                            <input
+                                className={`input input-end1 input-text fs5 i-r ${checkbox['1']['option4'] ? 'input-dop-active' : 'input-dop-non-active'}`}
+                                type='text'
+                                placeholder='введите ваш вариант'/>
                         </ul>
                     </div>
                     <div className='contactusp-block1'>
-                        <h3 className='fs5 i-m'>Адрес объекта:</h3>
+                        <h3 className='fs11 i-m'>Адрес объекта:</h3>
                         <div className='main-grid cb-list'>
                             <input className='input input-end1 input-text fs5 i-r' type='text'/>
                         </div>
                     </div>
                     <div className='contactusp-block1'>
-                        <h3 className='fs5 i-m'>Объект находится:</h3>
+                        <h3 className='fs11 i-m'>Объект находится:</h3>
                         <ul className='main-grid cb-list i-r'>
                             <li className='input input-end1'>
                                 <input className='cb' id='2-1' type="checkbox" value="option1"
@@ -172,7 +176,8 @@ export default function ContactusPage() {
                                            ...checkbox,
                                            "2": {...checkbox['2'], "option2": !checkbox['2']['option2']}
                                        })}/>
-                                <label htmlFor='2-2' className='input input-end1'>
+                                {/*<label htmlFor='2-2' className='input input-end1'>*/}
+                                <label htmlFor='2-2' className='label'>
                                     <span/>
                                     в аренде
                                 </label>
@@ -180,7 +185,7 @@ export default function ContactusPage() {
                         </ul>
                     </div>
                     <div className='contactusp-block1'>
-                        <h3 className='fs5 i-m'>Объект:</h3>
+                        <h3 className='fs11 i-m'>Объект:</h3>
                         <ul className='main-grid cb-list i-r'>
                             <li className='input input-end1'>
                                 <input className='cb' id='3-1' type="checkbox" value="option1"
@@ -189,7 +194,8 @@ export default function ContactusPage() {
                                            ...checkbox,
                                            "3": {...checkbox['3'], "option1": !checkbox['3']['option1']}
                                        })}/>
-                                <label htmlFor='3-1' className='input input-end1'>
+                                {/*<label htmlFor='3-1' className='input input-end1'>*/}
+                                <label htmlFor='3-1' className='label'>
                                     <span/>
                                     относится к группе компаний
                                 </label>
@@ -205,7 +211,8 @@ export default function ContactusPage() {
                                                "option2": !checkbox['3']['option2']
                                            }
                                        })}/>
-                                <label htmlFor='3-2' className='input input-end1'>
+                                {/*<label htmlFor='3-2' className='input input-end1'>*/}
+                                <label htmlFor='3-2' className='label'>
                                     <span/>
                                     является самостоятельным
                                 </label>
@@ -215,9 +222,9 @@ export default function ContactusPage() {
                 </div>
 
                 <div className='border-top form-sec' id='form2'>
-                    <h2 className='fs4 i-m'>Потребность заказчика</h2>
+                    <h2 className='fs4 mfs4 i-m contactusp-heading-mobile'>Потребность заказчика</h2>
                     <div className='contactusp-block1'>
-                        <h3 className='fs5 i-m'>Наименование запроса:</h3>
+                        <h3 className='fs11 i-m'>Наименование запроса:</h3>
                         <ul className='main-grid cb-list i-r'>
                             <li className='input input-end1'>
                                 <input className='cb' id='4-1' type="checkbox" value="option1"
@@ -226,9 +233,10 @@ export default function ContactusPage() {
                                            ...checkbox,
                                            "4": {...checkbox['4'], "option1": !checkbox['4']['option1']}
                                        })}/>
-                                <label htmlFor='4-1' className='input input-end2'>
+                                {/*<label htmlFor='4-1' className='input input-end2'>*/}
+                                <label htmlFor='4-1' className='label'>
                                     <span/>
-                                    система автоматической пожарной сигнализации и опевещения о пожаре
+                                    система автоматической пожарной сигнализации и оповещения о пожаре
                                 </label>
                             </li>
 
@@ -239,7 +247,8 @@ export default function ContactusPage() {
                                            ...checkbox,
                                            "4": {...checkbox['4'], "option2": !checkbox['4']['option2']}
                                        })}/>
-                                <label htmlFor='4-2' className='input input-end1'>
+                                {/*<label htmlFor='4-2' className='input input-end1'>*/}
+                                <label htmlFor='4-2' className='label'>
                                     <span/>
                                     система контроля и управления доступом
                                 </label>
@@ -252,7 +261,8 @@ export default function ContactusPage() {
                                            ...checkbox,
                                            "4": {...checkbox['4'], "option3": !checkbox['4']['option3']}
                                        })}/>
-                                <label htmlFor='4-3' className='input input-end1'>
+                                {/*<label htmlFor='4-3' className='input input-end1'>*/}
+                                <label htmlFor='4-3' className='label'>
                                     <span/>
                                     система охраны периметра
                                 </label>
@@ -265,7 +275,8 @@ export default function ContactusPage() {
                                            ...checkbox,
                                            "4": {...checkbox['4'], "option4": !checkbox['4']['option4']}
                                        })}/>
-                                <label htmlFor='4-4' className='input input-end1'>
+                                <label htmlFor='4-4' className='label'>
+                                    {/*<label htmlFor='4-4' className='input input-end1'>*/}
                                     <span/>
                                     система охранной сигнализации
                                 </label>
@@ -278,19 +289,21 @@ export default function ContactusPage() {
                                            ...checkbox,
                                            "4": {...checkbox['4'], "option5": !checkbox['4']['option5']}
                                        })}/>
-                                <label htmlFor='4-5' className='input input-end1'>
+                                {/*<label htmlFor='4-5' className='input input-end1'>*/}
+                                <label htmlFor='4-5' className='label'>
                                     <span/>
                                     прочее
                                 </label>
                             </li>
 
-                            {checkbox['4']['option5'] &&
-                                <input className='input input-end1 input-text fs5 i-r' type='text'
-                                       placeholder='введите ваш вариант'/>}
+                            <input
+                                className={`input input-end1 input-text fs5 i-r ${checkbox['4']['option5'] ? 'input-dop-active' : 'input-dop-non-active'}`}
+                                type='text'
+                                placeholder='введите ваш вариант'/>
                         </ul>
                     </div>
                     <div className='contactusp-block1'>
-                        <h3 className='fs5 i-m'>Основание для запроса:</h3>
+                        <h3 className='fs11 i-m'>Основание для запроса:</h3>
                         <ul className='main-grid cb-list i-r'>
                             <li className='input input-end1'>
                                 <input className='cb' id='5-1' type="checkbox" value="option1"
@@ -299,7 +312,8 @@ export default function ContactusPage() {
                                            ...checkbox,
                                            "5": {...checkbox['5'], "option1": !checkbox['5']['option1']}
                                        })}/>
-                                <label htmlFor='5-1' className='input input-end1'>
+                                <label htmlFor='5-1' className='label'>
+                                    {/*    <label htmlFor='5-1' className='input input-end1'>*/}
                                     <span/>
                                     предписание надзорных органов
                                 </label>
@@ -312,7 +326,8 @@ export default function ContactusPage() {
                                            ...checkbox,
                                            "5": {...checkbox['5'], "option2": !checkbox['5']['option2']}
                                        })}/>
-                                <label htmlFor='5-2' className='input input-end1'>
+                                {/*<label htmlFor='5-2' className='input input-end1'>*/}
+                                <label htmlFor='5-2' className='label'>
                                     <span/>
                                     строительство нового объекта
                                 </label>
@@ -325,7 +340,8 @@ export default function ContactusPage() {
                                            ...checkbox,
                                            "5": {...checkbox['5'], "option3": !checkbox['5']['option3']}
                                        })}/>
-                                <label htmlFor='5-3' className='input input-end1'>
+                                <label htmlFor='5-3' className='label'>
+                                    {/*<label htmlFor='5-3' className='input input-end1'>*/}
                                     <span/>
                                     модернизация существующей системы
                                 </label>
@@ -338,22 +354,24 @@ export default function ContactusPage() {
                                            ...checkbox,
                                            "5": {...checkbox['5'], "option4": !checkbox['5']['option4']}
                                        })}/>
-                                <label htmlFor='5-4' className='input input-end1'>
+                                <label htmlFor='5-4' className='label'>
+                                    {/*<label htmlFor='5-4' className='input input-end1'>*/}
                                     <span/>
                                     прочее
                                 </label>
                             </li>
-                            {checkbox['5']['option4'] &&
-                                <input className='input input-end1 input-text fs5 i-r' type='text'
-                                       placeholder='введите ваш вариант'/>}
+                            <input
+                                className={`input input-end1 input-text fs5 i-r ${checkbox['5']['option4'] ? 'input-dop-active' : 'input-dop-non-active'}`}
+                                type='text'
+                                placeholder='введите ваш вариант'/>
                         </ul>
                     </div>
                 </div>
 
                 <div className='border-top form-sec' id='form3'>
-                    <h2 className='fs4 i-m'>Ответ на запрос</h2>
+                    <h2 className='fs4 mfs4 i-m contactusp-heading-mobile'>Ответ на запрос</h2>
                     <div className='contactusp-block1'>
-                        <h3 className='fs5 i-m'>Ожидаемый результат запроса:</h3>
+                        <h3 className='fs11 i-m'>Ожидаемый результат запроса:</h3>
                         <ul className='main-grid cb-list i-r'>
                             <li className='input input-end1'>
                                 <input className='cb' id='6-1' type="checkbox" value="option1"
@@ -362,7 +380,8 @@ export default function ContactusPage() {
                                            ...checkbox,
                                            "6": {...checkbox['6'], "option1": !checkbox['6']['option1']}
                                        })}/>
-                                <label htmlFor='6-1' className='input input-end1'>
+                                <label htmlFor='6-1' className='label'>
+                                    {/*<label htmlFor='6-1' className='input input-end1'>*/}
                                     <span/>
                                     ориентировочная стоимость для формирования бюджета, оценка стоимости реализации
                                 </label>
@@ -375,7 +394,8 @@ export default function ContactusPage() {
                                            ...checkbox,
                                            "6": {...checkbox['6'], "option2": !checkbox['6']['option2']}
                                        })}/>
-                                <label htmlFor='6-2' className='input input-end1'>
+                                <label htmlFor='6-2' className='label'>
+                                    {/*<label htmlFor='6-2' className='input input-end1'>*/}
                                     <span/>
                                     коммерческое предложение без детализации для формирования стоимости
                                 </label>
@@ -388,7 +408,8 @@ export default function ContactusPage() {
                                            ...checkbox,
                                            "6": {...checkbox['6'], "option3": !checkbox['6']['option3']}
                                        })}/>
-                                <label htmlFor='6-3' className='input input-end1'>
+                                <label htmlFor='6-3' className='label'>
+                                    {/*<label htmlFor='6-3' className='input input-end1'>*/}
                                     <span/>
                                     подробный расчет с составлением спецификации оборудования и материалов
                                     и ведомости объемов работ
@@ -402,18 +423,20 @@ export default function ContactusPage() {
                                            ...checkbox,
                                            "6": {...checkbox['6'], "option4": !checkbox['6']['option4']}
                                        })}/>
-                                <label htmlFor='6-4' className='input input-end1'>
+                                <label htmlFor='6-4' className='label'>
+                                    {/*<label htmlFor='6-4' className='input input-end1'>*/}
                                     <span/>
                                     прочее
                                 </label>
                             </li>
-                            {checkbox['6']['option4'] &&
-                                <input className='input input-end1 input-text fs5 i-r' type='text'
-                                       placeholder='введите ваш вариант'/>}
+                            <input
+                                className={`input input-end1 input-text fs5 i-r ${checkbox['6']['option4'] ? 'input-dop-active' : 'input-dop-non-active'}`}
+                                type='text'
+                                placeholder='введите ваш вариант'/>
                         </ul>
                     </div>
                     <div className='contactusp-block1'>
-                        <h3 className='fs5 i-m'>Срок получения результата обработки запроса:</h3>
+                        <h3 className='fs11 i-m'>Срок получения результата обработки запроса:</h3>
                         <div className='main-grid cb-list'>
                             <input className='input input-end1 input-text fs5 i-r' type='text'/>
                         </div>
@@ -422,7 +445,7 @@ export default function ContactusPage() {
                 <div className='border-top form-sec' id='form4'>
                     <h2 className='fs4 i-m'>Контактная информация</h2>
                     <div className='contactusp-block1'>
-                        <h3 className='fs5 i-m'>Откуда вы узнали о компании:</h3>
+                        <h3 className='fs11 i-m'>Откуда вы узнали о компании:</h3>
                         <ul className='main-grid cb-list i-r'>
                             <li className='input input-end1'>
                                 <input className='cb' id='7-1' type="checkbox" value="option1"
@@ -431,7 +454,8 @@ export default function ContactusPage() {
                                            ...checkbox,
                                            "7": {...checkbox['7'], "option1": !checkbox['7']['option1']}
                                        })}/>
-                                <label htmlFor='7-1' className='input input-end1'>
+                                <label htmlFor='7-1' className='label'>
+                                    {/*<label htmlFor='7-1' className='input input-end1'>*/}
                                     <span/>
                                     интернет
                                 </label>
@@ -444,7 +468,8 @@ export default function ContactusPage() {
                                            ...checkbox,
                                            "7": {...checkbox['7'], "option2": !checkbox['7']['option2']}
                                        })}/>
-                                <label htmlFor='7-2' className='input input-end1'>
+                                <label htmlFor='7-2' className='label'>
+                                    {/*<label htmlFor='7-2' className='input input-end1'>*/}
                                     <span/>
                                     рекомендации
                                 </label>
@@ -457,39 +482,41 @@ export default function ContactusPage() {
                                            ...checkbox,
                                            "7": {...checkbox['7'], "option3": !checkbox['7']['option3']}
                                        })}/>
-                                <label htmlFor='7-3' className='input input-end1'>
+                                <label htmlFor='7-3' className='label'>
+                                    {/*<label htmlFor='7-3' className='input input-end1'>*/}
                                     <span/>
                                     прочее
                                 </label>
                             </li>
-                            {checkbox['7']['option3'] &&
-                                <input className='input input-end1 input-text fs5 i-r' type='text'
-                                       placeholder='введите ваш вариант'/>}
+                            <input
+                                className={`input input-end1 input-text fs5 i-r ${checkbox['7']['option3'] ? 'input-dop-active' : 'input-dop-non-active'}`}
+                                type='text'
+                                placeholder='введите ваш вариант'/>
                         </ul>
                     </div>
                     <div className='contactusp-block1'>
-                        <h3 className='fs5 i-m'>Наименование должности:</h3>
+                        <h3 className='fs11 i-m'>Наименование должности:</h3>
                         <div className='main-grid'>
                             <input className='input input-end1 input-text input-text2 fs5 i-r' type='text'
                                    placeholder='введите название должности'/>
                         </div>
                     </div>
                     <div className='contactusp-block2'>
-                        <h3 className='fs5 i-m'>ФИО:</h3>
+                        <h3 className='fs11 i-m'>ФИО:</h3>
                         <div className='main-grid'>
                             <input className='input input-end1 input-text input-text2 fs5 i-r' type='text'
                                    placeholder='введите ФИО'/>
                         </div>
                     </div>
                     <div className='contactusp-block2'>
-                        <h3 className='fs5 i-m'>E-mail:</h3>
+                        <h3 className='fs11 i-m'>E-mail:</h3>
                         <div className='main-grid'>
                             <input className='input input-end1 input-text input-text2 fs5 i-r' type='text'
                                    placeholder='введите e-mail'/>
                         </div>
                     </div>
                     <div className='contactusp-block2'>
-                        <h3 className='fs5 i-m'>Контактный телефон:</h3>
+                        <h3 className='fs11 i-m'>Контактный телефон:</h3>
                         <div className='main-grid'>
                             <input className='input input-end1 input-text input-text2 fs5 i-r' type='text'
                                    placeholder='введите номер телефона'/>

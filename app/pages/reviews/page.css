@@ -30,10 +30,24 @@
 
 
 @media only screen and (max-width: 767px) {
+    #reviewsp-sec {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #reviewsp-sec-heading {
+        height: 8.333332svh;
+    }
+
+    #reviewsp-sec-container {
+        height: 14.319247svh;
+    }
+
     #reviewsp-reviews {
+        margin-top: var(--1g);
         flex-wrap: unset;
         justify-content: unset;
         flex-direction: column;
-        row-gap: calc(var(--1w) * 0.43);
+        row-gap: var(--1g);
     }
 }

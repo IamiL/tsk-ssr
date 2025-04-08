@@ -1,4 +1,3 @@
-'use client';
 import Point from "../point";
 import "./cart.css"
 import React from "react"

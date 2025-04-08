@@ -24,12 +24,12 @@
     margin-top: calc(var(--1w) * 0.72761194301);
 }
 
-.contactusp-header1 {
+.contactusp-heading1 {
     margin-top: calc(var(--1w) * 0.1);
 }
 
 .contactusp-block1 {
-    margin-top: calc(var(--1w) * 0.3);
+    margin-top: calc(var(--1w) * 0.5);
 }
 
 .contactusp-block2 {
@@ -93,7 +93,7 @@ label {
     height: 0.5rem;
     background: transparent;
     border: 2px solid #FFFFFF;
-    margin-top: calc(var(--1w) * 0.09);
+    margin-top: calc(var(--1w) * 0.1);
 }
 
 .cb + label > span:after {
@@ -131,4 +131,77 @@ label {
 
 #contactusp-submit-btn {
     margin-top: calc(var(--1w) * 1.5);
+}
+
+.input-dop-active {
+    transform: scaleY(1);
+    max-height: calc(var(--1w) * 0.5);
+    transition: transform 0.2s, max-height 0.2s ease;
+}
+
+.input-dop-non-active {
+    max-height: 0;
+    transform: scaleY(0);
+    transition: transform 0.2s, max-height 0.2s ease;
+}
+
+
+@media only screen and (max-width: 767px) {
+    label {
+        display: inline-grid;
+        grid-template-columns: 2svh 1fr;
+    }
+
+    .cb + label > span:before, .cb + label > span:after {
+        margin-top: 0.7svh;
+    }
+
+    #divid5 {
+        position: unset;
+    }
+
+    #contactusp-sec1 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #contactusp-sec1-heading {
+        height: 8.333332svh;
+    }
+
+    #contactusp-sec1-container {
+        height: 14.319247svh;
+    }
+
+    #contactusp-sec2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .contactusp-heading-mobile {
+        height: calc(var(--1h) / 2);
+    }
+
+    .contactusp-block1 {
+        margin-top: var(--1g);
+    }
+
+    .contactusp-block1 > h3 {
+        margin-bottom: 1.17370892019svh;
+    }
+
+    .cb-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1.17370892019svh;
+    }
+
+    .input {
+        margin-left: 2.34741784038svh;
+    }
+
+    #contactusp-submit-btn {
+        margin-top: 8.333332svh;
+        height: calc(var(--1h) * 0.75);
+    }
 }
