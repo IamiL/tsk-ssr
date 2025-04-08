@@ -5,63 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e259db1-4cf9-4a09-b68f-03d4d8d820ad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/components/header/scroll.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/header/startAnim/startAnim.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/licensesSlider2/licensesMobile2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/licensesSlider2/licensesSlider2.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/components/mobileNavbar/mobileNavBarWrapper.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/context/context.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo.mov" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/logo.webm" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/carousel/carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/carousel/carousel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/cart/1/cart1.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/cart/1/cart1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/cart/1/cart1.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/cart/1/cart1.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/cart/2/cart2.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/cart/2/cart2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/cart/3/cart3.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/cart/3/cart3.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/cart/4/cart4.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/cart/4/cart4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/cart/4/cart4.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/cart/4/cart4.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/cart/5/cart5.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/cart/5/cart5.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/cart/5/cart5.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/cart/5/cart5.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/cart/6/cart6.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/cart/6/cart6.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/desktopMap/desktopMap.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/desktopMap/desktopMap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/desktopMap/desktopMap.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/desktopMap/desktopMap.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/header/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/header/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/header/header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/licensesSlider/licensesMobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/licensesSlider/licensesMobile.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/licensesSlider/licensesSlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/licensesSlider/licensesSlider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/logo/1/logo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/logo/1/logo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/map/map.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/map/map.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/mobileMap/mobileMap.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/mobileMap/mobileMap.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/mobileNavbar/mobileNavbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/mobileNavbar/mobileNavbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/mobileNavbar/mobileNavbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/mobileNavbar/mobileNavbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/point/cart/cart.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/point/cart/cart.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/point/cart/cart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/point/cart/cart.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/point/cart/cart2.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/point/cart/cart2.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/point/point.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/point/point.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/components/servicesSlider/servicesSlider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/components/servicesSlider/servicesSlider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/about/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/about/page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/about/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/cases/cases.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/cases/cases.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/cases/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/cases/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/contacts/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/contacts/page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/contacts/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/contacts/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/contactus/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/contactus/page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/contactus/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/contactus/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/home/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/home/page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/pages/home/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/home/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/licenses/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/licenses/page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/licenses/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/licenses/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/reviews/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/reviews/page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/reviews/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/reviews/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/services/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/services/page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/pages/services/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/pages/services/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/root.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/root.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +101,7 @@
       <option name="presentableId" value="Default" />
       <updated>1743600691880</updated>
       <workItem from="1743600693184" duration="23328000" />
-      <workItem from="1744044242530" duration="52800000" />
+      <workItem from="1744044242530" duration="53207000" />
     </task>
     <servers />
   </component>
