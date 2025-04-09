@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3e259db1-4cf9-4a09-b68f-03d4d8d820ad" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-router.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/react-router.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
     "prettierjs.PrettierConfiguration.Package": "C:\\Users\\ivana\\go\\src\\tsk-ssr\\node_modules\\prettier",
     "rearrange.code.on.save": "true",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.3.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "ts.external.directory.path": "C:\\Users\\ivana\\go\\src\\tsk-ssr\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -101,7 +101,8 @@
       <option name="presentableId" value="Default" />
       <updated>1743600691880</updated>
       <workItem from="1743600693184" duration="23328000" />
-      <workItem from="1744044242530" duration="54419000" />
+      <workItem from="1744044242530" duration="56598000" />
+      <workItem from="1744238286283" duration="688000" />
     </task>
     <servers />
   </component>
