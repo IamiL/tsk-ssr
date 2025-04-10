@@ -40,6 +40,7 @@ export function Layout({children}: { children: React.ReactNode }) {
             <Links/>
         </head>
         <body>
+        {/*<div id='background-layer'/>*/}
         <AppContextProvider>
             <Header location={''}/>
             <main>
