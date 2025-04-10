@@ -20,7 +20,7 @@ export default function AboutPage() {
                         бизнеса</p>
                 </div>
                 <div id='aboutp-sec1-container1' className='main-grid'>
-                    <p className='fs5 mfs6 i-m' id='aboutp-sec1-text'>
+                    <p className='fs5 mfs6 i-r' id='aboutp-sec1-text'>
                         {`"ТСК" — это команда профессионалов, работающая для создания безопасной среды в бизнесе и промышленности.
                 Мы предлагаем комплексные системы безопасности, ориентируясь на уникальные потребности каждого
                 клиента.`}
@@ -38,14 +38,14 @@ export default function AboutPage() {
                 </div>
             </section>
             <section id='aboutp-sec2'>
-                <p className='fs5 mfs6 i-m'>
+                <p className='fs5 mfs6 i-r'>
                     Мы стремимся к качеству в каждой детали и на каждом этапе работы.<br/>Наша команда постоянно
                     совершенствует свои навыки и использует передовые технологии, чтобы обеспечить надежность и
                     долговечность решений для безопасности.
                 </p>
                 <div className='main-grid' id='aboutp-sec2-container1'>
                     <h2 className='fs5 i-b' id='aboutp-sec2-container1-heading'>Что мы предлагаем</h2>
-                    <ul className='fs5 i-m' id='aboutp-sec2-container1-values'>
+                    <ul className='fs5 i-r' id='aboutp-sec2-container1-values'>
                         <li className='aboutp-sec2-container1-value'>
                             <p>Комплексные системы безопасности для объектов любой сложности</p>
                         </li>
@@ -62,7 +62,7 @@ export default function AboutPage() {
                 </div>
             </section>
             <section id='aboutp-sec3'>
-                <p className='fs5 i-m'>
+                <p className='fs5 i-r'>
                     {`За годы работы мы реализовали сотни проектов с крупными промышленными и государственными организациями. Наши системы защищают ключевые объекты, способствуя их бесперебойной работе`}
                 </p>
                 <h2 className='fs5 i-b' id='aboutp-sec3-heading'>

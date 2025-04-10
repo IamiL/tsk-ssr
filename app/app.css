@@ -50,7 +50,7 @@ button {
 body {
     background-color: #191919;
     color: white;
-    background-image: url('/background.png');
+    background-image: url('/back-img-2.png');
     /*--1w: min(1.40937vh, 1.09248vw);*/
     /*--100w: min(140.93686vh, 91.53439vw);*/
 }

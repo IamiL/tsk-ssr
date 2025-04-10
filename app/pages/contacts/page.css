@@ -25,6 +25,11 @@
     height: calc(var(--1w) * 4.23);
 }
 
+#contactsp-map > iframe {
+    width: 100%;
+    height: 100%;
+}
+
 #contactsp-map-img {
     height: 100%;
     width: 100%;

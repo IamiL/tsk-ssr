@@ -12,6 +12,11 @@
     padding-right: 2%;
 }
 
-#cart4-value {
+.cart4-link-a {
+    display: flex;
+    align-items: center;
+}
+
+.cart4-value {
     padding-right: 9%;
 }

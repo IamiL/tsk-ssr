@@ -28,7 +28,7 @@ export default function HomePage() {
                 <h2 className="fs3 mfs3 m-b up" id='mainp-sec2-heading'>о компании</h2>
                 <div id='mainp-sec2-text-container'>
                     <div className='divid' id='divid1'/>
-                    <p className='fs4 mfs5 i-m' id='mainp-sec2-text'>“ТелекомСервисКомплект” — ведущий
+                    <p className='fs4 mfs5 i-r' id='mainp-sec2-text'>“ТелекомСервисКомплект” — ведущий
                         российский<br/>
                         интегратор систем безопасности и охраны объектов </p>
                 </div>

@@ -72,23 +72,21 @@ export default function ContactusPage() {
                 </h1>
                 <div id='contactusp-sec1-container'>
                     <div className='divid' id='divid5'/>
-                    <p className='fs11 mfs6 i-m' id='contactusp-sec1-container-text'>
+                    <p className='fs5 mfs6 i-r' id='contactusp-sec1-container-text'>
                         {'Заполните ключевые данные по вашему проекту, '}
-                        <br/>
                         {'чтобы мы могли подготовить индивидуальное предложение '}
-                        <br/>
                         {'с учетом всех особенностей вашего объекта.'}
                     </p>
                 </div>
             </section>
-            <form id='contactusp-sec2' className='fs11 mfs6 i-m' onScroll={(event) => {
+            <form id='contactusp-sec2' className='fs5 mfs6 i-m' onScroll={(event) => {
                 event.preventDefault()
             }}>
                 <div className='border-top form-sec' id='form1'>
                     <h2 className='fs4 mfs4 i-m contactusp-heading1 contactusp-heading-mobile'>Характеристика
                         объекта</h2>
                     <div className='contactusp-block1'>
-                        <h3 className='fs11 i-m'>Функциональное назначение:</h3>
+                        <h3 className='fs5 i-m'>Функциональное назначение:</h3>
                         <ul className='main-grid cb-list i-r'>
                             <li className='input input-end1'>
                                 <input className='cb' id='1-1' type="checkbox" value="option1"
@@ -148,13 +146,13 @@ export default function ContactusPage() {
                         </ul>
                     </div>
                     <div className='contactusp-block1'>
-                        <h3 className='fs11 i-m'>Адрес объекта:</h3>
+                        <h3 className='fs5 i-m'>Адрес объекта:</h3>
                         <div className='main-grid cb-list'>
                             <input className='input input-end1 input-text fs5 i-r' type='text'/>
                         </div>
                     </div>
                     <div className='contactusp-block1'>
-                        <h3 className='fs11 i-m'>Объект находится:</h3>
+                        <h3 className='fs5 i-m'>Объект находится:</h3>
                         <ul className='main-grid cb-list i-r'>
                             <li className='input input-end1'>
                                 <input className='cb' id='2-1' type="checkbox" value="option1"
@@ -185,7 +183,7 @@ export default function ContactusPage() {
                         </ul>
                     </div>
                     <div className='contactusp-block1'>
-                        <h3 className='fs11 i-m'>Объект:</h3>
+                        <h3 className='fs5 i-m'>Объект:</h3>
                         <ul className='main-grid cb-list i-r'>
                             <li className='input input-end1'>
                                 <input className='cb' id='3-1' type="checkbox" value="option1"
@@ -224,7 +222,7 @@ export default function ContactusPage() {
                 <div className='border-top form-sec' id='form2'>
                     <h2 className='fs4 mfs4 i-m contactusp-heading-mobile'>Потребность заказчика</h2>
                     <div className='contactusp-block1'>
-                        <h3 className='fs11 i-m'>Наименование запроса:</h3>
+                        <h3 className='fs5 i-m'>Наименование запроса:</h3>
                         <ul className='main-grid cb-list i-r'>
                             <li className='input input-end1'>
                                 <input className='cb' id='4-1' type="checkbox" value="option1"
@@ -303,7 +301,7 @@ export default function ContactusPage() {
                         </ul>
                     </div>
                     <div className='contactusp-block1'>
-                        <h3 className='fs11 i-m'>Основание для запроса:</h3>
+                        <h3 className='fs5 i-m'>Основание для запроса:</h3>
                         <ul className='main-grid cb-list i-r'>
                             <li className='input input-end1'>
                                 <input className='cb' id='5-1' type="checkbox" value="option1"
@@ -371,7 +369,7 @@ export default function ContactusPage() {
                 <div className='border-top form-sec' id='form3'>
                     <h2 className='fs4 mfs4 i-m contactusp-heading-mobile'>Ответ на запрос</h2>
                     <div className='contactusp-block1'>
-                        <h3 className='fs11 i-m'>Ожидаемый результат запроса:</h3>
+                        <h3 className='fs5 i-m'>Ожидаемый результат запроса:</h3>
                         <ul className='main-grid cb-list i-r'>
                             <li className='input input-end1'>
                                 <input className='cb' id='6-1' type="checkbox" value="option1"
@@ -436,7 +434,7 @@ export default function ContactusPage() {
                         </ul>
                     </div>
                     <div className='contactusp-block1'>
-                        <h3 className='fs11 i-m'>Срок получения результата обработки запроса:</h3>
+                        <h3 className='fs5 i-m'>Срок получения результата обработки запроса:</h3>
                         <div className='main-grid cb-list'>
                             <input className='input input-end1 input-text fs5 i-r' type='text'/>
                         </div>
@@ -445,7 +443,7 @@ export default function ContactusPage() {
                 <div className='border-top form-sec' id='form4'>
                     <h2 className='fs4 i-m'>Контактная информация</h2>
                     <div className='contactusp-block1'>
-                        <h3 className='fs11 i-m'>Откуда вы узнали о компании:</h3>
+                        <h3 className='fs5 i-m'>Откуда вы узнали о компании:</h3>
                         <ul className='main-grid cb-list i-r'>
                             <li className='input input-end1'>
                                 <input className='cb' id='7-1' type="checkbox" value="option1"
@@ -495,28 +493,28 @@ export default function ContactusPage() {
                         </ul>
                     </div>
                     <div className='contactusp-block1'>
-                        <h3 className='fs11 i-m'>Наименование должности:</h3>
+                        <h3 className='fs5 i-m'>Наименование должности:</h3>
                         <div className='main-grid'>
                             <input className='input input-end1 input-text input-text2 fs5 i-r' type='text'
                                    placeholder='введите название должности'/>
                         </div>
                     </div>
                     <div className='contactusp-block2'>
-                        <h3 className='fs11 i-m'>ФИО:</h3>
+                        <h3 className='fs5 i-m'>ФИО:</h3>
                         <div className='main-grid'>
                             <input className='input input-end1 input-text input-text2 fs5 i-r' type='text'
                                    placeholder='введите ФИО'/>
                         </div>
                     </div>
                     <div className='contactusp-block2'>
-                        <h3 className='fs11 i-m'>E-mail:</h3>
+                        <h3 className='fs5 i-m'>E-mail:</h3>
                         <div className='main-grid'>
                             <input className='input input-end1 input-text input-text2 fs5 i-r' type='text'
                                    placeholder='введите e-mail'/>
                         </div>
                     </div>
                     <div className='contactusp-block2'>
-                        <h3 className='fs11 i-m'>Контактный телефон:</h3>
+                        <h3 className='fs5 i-m'>Контактный телефон:</h3>
                         <div className='main-grid'>
                             <input className='input input-end1 input-text input-text2 fs5 i-r' type='text'
                                    placeholder='введите номер телефона'/>

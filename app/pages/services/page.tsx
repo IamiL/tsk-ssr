@@ -9,7 +9,7 @@ export default function ServicesPage() {
             <div id='servicesp-container1'>
                 <div className='divid' id='divid3'/>
                 <p id='servicesp-container1-text'
-                   className='fs5 mfs6 i-m'>{`Комплексные решения в области безопасности: проектирование, установка и обслуживание систем охраны, видеонаблюдения, контроля доступа и пожарной безопасности для защиты ваших объектов и персонала.`}</p>
+                   className='fs5 mfs6 i-r'>{`Комплексные решения в области безопасности: проектирование, установка и обслуживание систем охраны, видеонаблюдения, контроля доступа и пожарной безопасности для защиты ваших объектов и персонала.`}</p>
             </div>
             <div className='main-grid' id='servicesp-services'>
                 <Cart4 heading={"КИТСОЗ"}

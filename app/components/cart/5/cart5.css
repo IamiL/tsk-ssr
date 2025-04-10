@@ -3,13 +3,17 @@
     border-bottom-width: 0;
 }
 
-.cart5 > div > .cart5-heading {
-    border-bottom: 1px solid #FFFFFF;
-    border-bottom-width: 0;
+.cart5-heading {
+    /*border-bottom: 1px solid #FFFFFF;*/
+    /*border-bottom-width: 0;*/
+    /*width: auto;*/
+    text-underline-offset: 0.17rem;
+    text-decoration-thickness: 0.01rem;
 }
 
 .cart5:hover > div > .cart5-heading {
-    border-bottom-width: 1px;
+    /*border-bottom-width: 1px;*/
+    text-decoration: underline;
 }
 
 .cart5-link {
@@ -30,6 +34,4 @@
         display: flex;
         justify-content: end;
     }
-
-
 }

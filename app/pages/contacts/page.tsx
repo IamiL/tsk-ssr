@@ -1,4 +1,3 @@
-import map from "./map.png";
 import "./page.css"
 
 export default function ContactsPage() {
@@ -9,12 +8,18 @@ export default function ContactsPage() {
                 <div className='main-grid' id='contactsp-sec1-container'>
                     <div id='divider9'/>
                     <h2 className='fs5 mfs4 i-m' id='contactsp-sec1-container-heading'>Расположение</h2>
-                    <div id='contactsp-map'><img src={map} alt={'Map'} id='contactsp-map-img'/></div>
+                    {/*<div id='contactsp-map'><img src={map} alt={'Map'} id='contactsp-map-img'/></div>*/}
+                    <div id='contactsp-map'>
+                        <iframe
+                            src="https://yandex.ru/map-widget/v1/?um=constructor%3A580e267df474b7fe828655e3506ef458be8444ac683c7efdea08febfec0c2332&amp;source=constructor"
+                            width="852" height="408" frameBorder="0"></iframe>
+                    </div>
+
                 </div>
             </section>
             <section className='main-grid' id='contactsp-sec2'>
                 <h2 className='fs5 mfs4 i-m organization-map-heading'>Карта предприятия</h2>
-                <ul className='fs8 mfs7 i-m contactsp-specs'>
+                <ul className='fs8 mfs7 i-r contactsp-specs'>
                     <li className='contactsp-spec border-bottom'>
                         <p>
                             Полное наименование организации
@@ -147,7 +152,7 @@ export default function ContactsPage() {
             </section>
             <section className='main-grid' id='contactsp-sec3'>
                 <h2 className='fs5 mfs4 i-m organization-map-heading'>Платежные реквизиты</h2>
-                <ul className='fs8 mfs7 i-m contactsp-specs'>
+                <ul className='fs8 mfs7 i-r contactsp-specs'>
                     <li className='contactsp-spec border-bottom'>
                         <p>Полное наименование банка</p>
                         <p className='right-text-align'>ПАО «Челябинвестбанк»</p>
