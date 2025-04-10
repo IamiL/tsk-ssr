@@ -1,5 +1,4 @@
 import './desktopMap.css'
-import map from "./../map/map.png";
 import PointCart from "./../point/cart/cart";
 import {useState} from "react";
 
@@ -7,7 +6,7 @@ export default function DesktopMap() {
     const [open, setOpen] = useState(0);
 
     return <>
-        <img id='map' src={map} alt="Map" width={400} height={200}/>
+        <img id='map' src={'map.webp'} alt="Map" width={400} height={200}/>
         <PointCart isOpen={(open === 1)} open={() => setOpen(1)} close={() => setOpen(0)} id={'point1'}/>
         <PointCart isOpen={(open === 2)} open={() => setOpen(2)} close={() => setOpen(0)} id={'point2'}/>
         <PointCart isOpen={(open === 3)} open={() => setOpen(3)} close={() => setOpen(0)} id={'point3'}/>

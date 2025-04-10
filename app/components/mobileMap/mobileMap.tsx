@@ -27,7 +27,7 @@ export default function MobileMap() {
     return (
         <>
             <div id='mobile-map'>
-                <img id='mobile-map-img' src={'map.png'} alt="Map" width={400} height={200}/>
+                <img id='mobile-map-img' src={'map.webp'} alt="Map" width={400} height={200}/>
                 <PointCart2 classname={activeCardIndex === 0 ? 'zoom-effect' : ''} id={'mpoint1'}/>
                 <PointCart2 classname={activeCardIndex === 1 ? 'zoom-effect' : ''} id={'mpoint2'}/>
                 <PointCart2 classname={activeCardIndex === 2 ? 'zoom-effect' : ''} id={'mpoint3'}/>
@@ -43,42 +43,42 @@ export default function MobileMap() {
                     <Cart6 heading={'Энергосистема «Урал» ОАО «Фортум»'}
                            value={'Комплексные строительно-монтажные и пусконаладочные работы по установке системы безопасности для объектов компании, включающие прокладку кабеленесущих конструкций, монтаж кабелей различного...'}
                            link={'/ural'}>
-                        <img src={'CaseUral.png'} alt={'project-ural'}/>
+                        <img src={'CaseUral.webp'} alt={'project-ural'}/>
                     </Cart6>
                     <Cart6 heading={'Энергосистема «Урал» ОАО «Фортум»'}
                            value={'Комплексные строительно-монтажные и пусконаладочные работы по установке системы безопасности для объектов компании, включающие прокладку кабеленесущих конструкций, монтаж кабелей различного...'}
                            link={'/ural'}>
-                        <img src={'CaseUral.png'} alt={'project-ural'}/>
+                        <img src={'CaseUral.webp'} alt={'project-ural'}/>
                     </Cart6>
                     <Cart6 heading={'Энергосистема «Урал» ОАО «Фортум»'}
                            value={'Комплексные строительно-монтажные и пусконаладочные работы по установке системы безопасности для объектов компании, включающие прокладку кабеленесущих конструкций, монтаж кабелей различного...'}
                            link={'/ural'}>
-                        <img src={'CaseUral.png'} alt={'project-ural'}/>
+                        <img src={'CaseUral.webp'} alt={'project-ural'}/>
                     </Cart6>
                     <Cart6 heading={'Энергосистема «Урал» ОАО «Фортум»'}
                            value={'Комплексные строительно-монтажные и пусконаладочные работы по установке системы безопасности для объектов компании, включающие прокладку кабеленесущих конструкций, монтаж кабелей различного...'}
                            link={'/ural'}>
-                        <img src={'CaseUral.png'} alt={'project-ural'}/>
+                        <img src={'CaseUral.webp'} alt={'project-ural'}/>
                     </Cart6>
                     <Cart6 heading={'Энергосистема «Урал» ОАО «Фортум»'}
                            value={'Комплексные строительно-монтажные и пусконаладочные работы по установке системы безопасности для объектов компании, включающие прокладку кабеленесущих конструкций, монтаж кабелей различного...'}
                            link={'/ural'}>
-                        <img src={'CaseUral.png'} alt={'project-ural'}/>
+                        <img src={'CaseUral.webp'} alt={'project-ural'}/>
                     </Cart6>
                     <Cart6 heading={'Энергосистема «Урал» ОАО «Фортум»'}
                            value={'Комплексные строительно-монтажные и пусконаладочные работы по установке системы безопасности для объектов компании, включающие прокладку кабеленесущих конструкций, монтаж кабелей различного...'}
                            link={'/ural'}>
-                        <img src={'CaseUral.png'} alt={'project-ural'}/>
+                        <img src={'CaseUral.webp'} alt={'project-ural'}/>
                     </Cart6>
                     <Cart6 heading={'Энергосистема «Урал» ОАО «Фортум»'}
                            value={'Комплексные строительно-монтажные и пусконаладочные работы по установке системы безопасности для объектов компании, включающие прокладку кабеленесущих конструкций, монтаж кабелей различного...'}
                            link={'/ural'}>
-                        <img src={'CaseUral.png'} alt={'project-ural'}/>
+                        <img src={'CaseUral.webp'} alt={'project-ural'}/>
                     </Cart6>
                     <Cart6 heading={'Энергосистема «Урал» ОАО «Фортум»'}
                            value={'Комплексные строительно-монтажные и пусконаладочные работы по установке системы безопасности для объектов компании, включающие прокладку кабеленесущих конструкций, монтаж кабелей различного...'}
                            link={'/ural'}>
-                        <img src={'CaseUral.png'} alt={'project-ural'}/>
+                        <img src={'CaseUral.webp'} alt={'project-ural'}/>
                     </Cart6>
                 </Slider>
 

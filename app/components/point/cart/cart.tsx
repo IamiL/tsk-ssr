@@ -27,7 +27,7 @@ export default function PointCart({id, isOpen, open, close, cartLeft}: {
                 </button>
             </div>
             <div className='point-info-img-container'>
-                <img src={'CaseUral.png'} alt={'caseUral'} className='point-info-img'/>
+                <img src={'CaseUral.webp'} alt={'caseUral'} className='point-info-img'/>
             </div>
 
             <div className='point-info-info fs10 i-r'>

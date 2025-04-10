@@ -1,6 +1,5 @@
 import "./cases.css"
 import Cart6 from "./../../components/cart/6/cart6";
-import CaseUral from "./CaseUral.png"
 
 export default function CasesPage() {
     return (
@@ -16,22 +15,22 @@ export default function CasesPage() {
                 <Cart6 heading={'Энергосистема «Урал» ОАО «Фортум»'}
                        value={'Комплексные строительно-монтажные и пусконаладочные работы по установке системы безопасности для объектов компании, включающие прокладку кабеленесущих конструкций, монтаж кабелей различного...'}
                        link={'/ural'}>
-                    <img src={CaseUral} alt={'project-ural'}/>
+                    <img src={'CaseUral.webp'} alt={'project-ural'}/>
                 </Cart6>
                 <Cart6 heading={'Энергосистема «Урал» ОАО «Фортум»'}
                        value={'Комплексные строительно-монтажные и пусконаладочные работы по установке системы безопасности для объектов компании, включающие прокладку кабеленесущих конструкций, монтаж кабелей различного...'}
                        link={'/ural'}>
-                    <img src={CaseUral} alt={'project-ural'}/>
+                    <img src={'CaseUral.webp'} alt={'project-ural'}/>
                 </Cart6>
                 <Cart6 heading={'Энергосистема «Урал» ОАО «Фортум»'}
                        value={'Комплексные строительно-монтажные и пусконаладочные работы по установке системы безопасности для объектов компании, включающие прокладку кабеленесущих конструкций, монтаж кабелей различного...'}
                        link={'/ural'}>
-                    <img src={CaseUral} alt={'project-ural'}/>
+                    <img src={'CaseUral.webp'} alt={'project-ural'}/>
                 </Cart6>
                 <Cart6 heading={'Энергосистема «Урал» ОАО «Фортум»'}
                        value={'Комплексные строительно-монтажные и пусконаладочные работы по установке системы безопасности для объектов компании, включающие прокладку кабеленесущих конструкций, монтаж кабелей различного...'}
                        link={'/ural'}>
-                    <img src={CaseUral} alt={'project-ural'}/>
+                    <img src={'CaseUral.webp'} alt={'project-ural'}/>
                 </Cart6>
 
             </div>
