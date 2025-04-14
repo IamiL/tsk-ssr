@@ -494,7 +494,7 @@ export default function ContactusPage() {
                                 placeholder='Введите ваш вариант'/>
                         </ul>
                     </div>
-                    <div className='contactusp-block1'>
+                    <div className='contactusp-block1' style={{display: 'none'}}>
                         <h3 className='fs5 i-m'>Название компании:</h3>
                         <div className='main-grid'>
                             <input className='input input-end1 input-text input-text2 fs5 i-r' type='text'
