@@ -148,7 +148,8 @@ export default function ContactusPage() {
                     <div className='contactusp-block1'>
                         <h3 className='fs5 i-m'>Адрес объекта:</h3>
                         <div className='main-grid cb-list'>
-                            <input className='input input-end1 input-text fs5 i-r' type='text'/>
+                            <input className='input input-end1 input-text fs5 i-r' type='text'
+                                   placeholder='введите адрес объекта'/>
                         </div>
                     </div>
                     <div className='contactusp-block1'>
@@ -436,7 +437,8 @@ export default function ContactusPage() {
                     <div className='contactusp-block1'>
                         <h3 className='fs5 i-m'>Срок получения результата обработки запроса:</h3>
                         <div className='main-grid cb-list'>
-                            <input className='input input-end1 input-text fs5 i-r' type='text'/>
+                            <input className='input input-end1 input-text fs5 i-r' type='text'
+                                   placeholder='укажите срок'/>
                         </div>
                     </div>
                 </div>
