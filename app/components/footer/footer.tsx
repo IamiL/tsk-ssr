@@ -17,7 +17,7 @@ export default function Footer() {
                     <h4 className='footer-h4'>E-mail:</h4><p>info@tsk74.ru</p>
                 </div>
             </address>
-            <a className='fs6 mfs7 i-m'>Политика конфиденциальности </a>
+            <a className='fs8 mfs7 i-m'>Политика конфиденциальности </a>
         </div>
     </footer>
 }
