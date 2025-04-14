@@ -73,7 +73,7 @@ body {
     left: 0;
     width: 100%;
     height: 100svh;
-    background-image: url('/back-img-2.png');
+    background-image: url('/background.webp');
     z-index: 1;
 }
 
