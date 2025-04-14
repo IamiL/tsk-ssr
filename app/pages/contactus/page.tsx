@@ -498,35 +498,35 @@ export default function ContactusPage() {
                         <h3 className='fs5 i-m'>Название компании:</h3>
                         <div className='main-grid'>
                             <input className='input input-end1 input-text input-text2 fs5 i-r' type='text'
-                                   placeholder='Введите название компании'/>
+                                   placeholder='Введите название компании*'/>
                         </div>
                     </div>
                     <div className='contactusp-block1'>
                         <h3 className='fs5 i-m'>Наименование должности:</h3>
                         <div className='main-grid'>
                             <input className='input input-end1 input-text input-text2 fs5 i-r' type='text'
-                                   placeholder='Введите название должности'/>
+                                   placeholder='Введите название должности*'/>
                         </div>
                     </div>
                     <div className='contactusp-block2'>
                         <h3 className='fs5 i-m'>ФИО:</h3>
                         <div className='main-grid'>
                             <input className='input input-end1 input-text input-text2 fs5 i-r' type='text'
-                                   placeholder='Введите ФИО'/>
+                                   placeholder='Введите ФИО*'/>
                         </div>
                     </div>
                     <div className='contactusp-block2'>
                         <h3 className='fs5 i-m'>E-mail:</h3>
                         <div className='main-grid'>
                             <input className='input input-end1 input-text input-text2 fs5 i-r' type='text'
-                                   placeholder='Введите e-mail'/>
+                                   placeholder='Введите e-mail*'/>
                         </div>
                     </div>
                     <div className='contactusp-block2'>
                         <h3 className='fs5 i-m'>Контактный телефон:</h3>
                         <div className='main-grid'>
                             <input className='input input-end1 input-text input-text2 fs5 i-r' type='text'
-                                   placeholder='Введите номер телефона'/>
+                                   placeholder='Введите номер телефона*'/>
                         </div>
                     </div>
                 </div>
